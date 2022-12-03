@@ -83,7 +83,7 @@ local function insert(fingerprint, count)
     end
 end
 
-local data = request("https://raw.githubusercontent.com/BrightYC/RipMarket/master/items.lua")
+local data = request("https://raw.githubusercontent.com/ILIa3174/market/master/items.lua")
 local chunk, err = load("return " .. data, "=items.lua", "t")
 if not chunk then 
     error("Неправильно сконфигурирован файл вещей! " .. err)

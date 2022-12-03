@@ -52,7 +52,7 @@ gpu.set(23, 9, "Initializing...")
 
 local running = false
 local users = {computer.users()}
-admins = {"BrightYC"}
+admins = {"ILIa3175"}
 
 for admin = 1, #admins do 
     computer.addUser(admins[admin])

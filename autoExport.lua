@@ -1,6 +1,6 @@
 local component = require("component")
 local internet = component.internet
-local export, import = component.proxy("66c93425-f3e9-44d2-bc77-b6c46fb675fc"), component.proxy("c79ff597-8e8c-467a-a863-8983fc8a72ae")
+local export, import = component.proxy("704a7839-255b-4c13-8749-048a8ce36a55"), component.proxy("c79ff597-8e8c-467a-a863-8983fc8a72ae")
 local importSide = "SOUTH"
 local items, oldSlot
 
